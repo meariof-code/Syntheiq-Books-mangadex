@@ -1,16 +1,24 @@
 {
+  "generatedAt": "2026-11-12T00:00:00Z",
   "schemaVersion": 1,
   "modules": [
     {
       "id": "mangadex-fr",
-      "name": "MangaDex (FR)",
       "familyID": "mangadex-fr",
+      "name": "MangaDex (FR)",
       "version": "1.0.0",
       "contentType": "pageImages",
+      "contentRating": "suggestive",
       "language": "fr",
       "releaseTrack": "stable",
+      "status": "active",
+      "icon": {
+        "path": "modules/mangadex/icon.png",
+        "sha256": "0000000000000000000000000000000000000000000000000000000000000000"
+      },
       "manifest": {
-        "path": "modules/mangadex/manifest.json"
+        "path": "modules/mangadex/manifest.json",
+        "sha256": "0000000000000000000000000000000000000000000000000000000000000000"
       }
     }
   ]
