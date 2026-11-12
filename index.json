@@ -1,9 +1,17 @@
 {
+  "schemaVersion": "3.0.0",
   "modules": [
     {
       "id": "mangadex-fr",
-      "name": "MangaDex (Webtoons FR)",
-      "manifestUrl": "https://raw.githubusercontent.com/meariof-code/Syntheiq-Books-mangadex/main/modules/mangadex/manifest.json"
+      "name": "MangaDex (FR)",
+      "familyID": "mangadex-fr",
+      "version": "1.0.0",
+      "contentType": "pageImages",
+      "language": "fr",
+      "releaseTrack": "stable",
+      "manifest": {
+        "path": "modules/mangadex/manifest.json"
+      }
     }
   ]
 }
