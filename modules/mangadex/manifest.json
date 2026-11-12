@@ -1,38 +1,44 @@
 {
-  "id": "mangadex-fr",
-  "familyID": "mangadex-fr",
-  "name": "MangaDex (FR)",
-  "version": "1.0.0",
-  "contractVersion": 1,
-  "contentType": "pageImages",
-  "contentRating": "suggestive",
-  "language": "fr",
-  "releaseTrack": "stable",
-  "status": "active",
-  "minimumAppVersion": "1.0.0",
-  "baseURL": "https://api.mangadex.org",
   "allowedHosts": [
     "api.mangadex.org",
     "uploads.mangadex.org"
   ],
-  "capabilities": ["search", "details", "chapters", "images"],
-  "limits": {
-    "maxConcurrentRequests": 4,
-    "maxResponseBytes": 16777216,
-    "maxScriptBytes": 524288,
-    "timeoutMilliseconds": 30000,
-    "cacheTTLSeconds": 900
-  },
   "attribution": {
     "author": "meariof-code",
     "website": "https://github.com/meariof-code/Syntheiq-Books-mangadex"
   },
+  "baseURL": "https://api.mangadex.org",
+  "capabilities": [
+    "search",
+    "details",
+    "chapters",
+    "images"
+  ],
+  "contentRating": "suggestive",
+  "contentType": "pageImages",
+  "contractVersion": 1,
+  "entry": {
+    "path": "modules/mangadex/index.js",
+    "sha256": "a6d7e1f9fb619c2bb3e472f742686d0c69e9dc8f82960dd316b6192c2b404837"
+  },
+  "familyID": "mangadex-fr",
   "icon": {
     "path": "modules/mangadex/icon.png",
     "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
   },
-  "entry": {
-    "path": "modules/mangadex/index.js",
-    "sha256": "a6d7e1f9fb619c2bb3e472f742686d0c69e9dc8f82960dd316b6192c2b404837"
-  }
+  "id": "mangadex-fr",
+  "language": "fr",
+  "limits": {
+    "cacheTTLSeconds": 900,
+    "maxConcurrentRequests": 2,
+    "maxResponseBytes": 16777216,
+    "maxScriptBytes": 524288,
+    "timeoutMilliseconds": 30000
+  },
+  "minimumAppVersion": "1.0.0",
+  "name": "MangaDex (FR)",
+  "releaseTrack": "stable",
+  "status": "active",
+  "universalLink": "https://synthetiq.uk/manga/modules/mangadex-fr",
+  "version": "1.0.0"
 }
