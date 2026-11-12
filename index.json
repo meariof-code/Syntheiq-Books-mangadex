@@ -2,23 +2,32 @@
   "generatedAt": "2026-11-12T12:00:00Z",
   "modules": [
     {
-      "id": "mangadex-fr",
-      "familyID": "mangadex-fr",
-      "name": "MangaDex (FR)",
-      "version": "1.0.0",
-      "contentType": "pageImages",
       "contentRating": "suggestive",
-      "language": "fr",
-      "releaseTrack": "stable",
-      "status": "active",
+      "contentType": "pageImages",
+      "familyID": "mangadex-fr",
       "icon": {
         "path": "modules/mangadex/icon.png",
         "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
       },
+      "id": "mangadex-fr",
+      "language": "fr",
       "manifest": {
         "path": "modules/mangadex/manifest.json",
         "sha256": "36681fd8984c37c84fa5e7587b1fc2b5b19afd815d60b11f472aa8a8bfa124ce"
-      }
+      },
+      "name": "MangaDex (FR)",
+      "releaseTrack": "stable",
+      "status": "active",
+      "version": "1.0.0",
+      "sortPriority": 1
     }
-  ]
+  ],
+  "repository": {
+    "homepage": "https://github.com/meariof-code/Syntheiq-Books-mangadex",
+    "id": "meariof.sources",
+    "name": "Meariof Manga Sources",
+    "owner": "meariof-code",
+    "universalLink": "https://synthetiq.uk/manga/modules"
+  },
+  "schemaVersion": 1
 }
