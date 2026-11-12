@@ -5,21 +5,16 @@
       "contentRating": "suggestive",
       "contentType": "pageImages",
       "familyID": "mangadex-fr",
-      "icon": {
-        "path": "modules/mangadex/icon.png",
-        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-      },
       "id": "mangadex-fr",
       "language": "fr",
       "manifest": {
         "path": "modules/mangadex/manifest.json",
-        "sha256": "7fea53eafad3d9bacad225dbd00cea264d75c8bd5bed7fff205009cb97e69096"
+        "sha256": "1efed9c6346b501c5cd2ce388fcc842493892a73f721de43dd151e7023dc8e1f"
       },
       "name": "MangaDex (FR)",
       "releaseTrack": "stable",
       "status": "active",
-      "version": "1.0.0",
-      "sortPriority": 1
+      "version": "1.0.0"
     }
   ],
   "repository": {
