@@ -1,26 +1,18 @@
 {
-  "id": "mangadex-fr-books",
-  "name": "MangaDex (Webtoons FR)",
-  "description": "Webtoons et Mangas en Français",
-  "language": "French",
-  "moduleVersion": "1.0.0",
-  "contractVersion": 3,
+  "id": "mangadex-fr",
+  "familyID": "mangadex-fr",
+  "version": "1.0.0",
+  "contractVersion": 1,
+  "contentType": "pageImages",
+  "capabilities": ["search", "details", "chapters", "images"],
+  "language": "fr",
   "releaseTrack": "stable",
-  "contentType": "image",
-  "moduleFamilyId": "mangadex",
-  "moduleIdentity": "mangadex-fr",
-  "moduleIdentityNumber": 1,
-  "config": {
-    "runtime": {
-      "entry": "index.js",
-      "mode": "local"
-    },
-    "caps": {
-      "homeMaxResults": 20,
-      "maxResponseBytes": 2097152,
-      "timeoutMs": 30000,
-      "maxConcurrentRequests": 4
-    },
-    "baseUrl": "https://api.mangadex.org"
+  "baseURL": "https://api.mangadex.org",
+  "allowedHosts": [
+    "api.mangadex.org",
+    "uploads.mangadex.org"
+  ],
+  "entry": {
+    "path": "modules/mangadex/index.js"
   }
 }
