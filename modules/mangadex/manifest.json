@@ -19,7 +19,7 @@
   "contractVersion": 1,
   "entry": {
     "path": "modules/mangadex/index.js",
-    "sha256": "a6d7e1f9fb619c2bb3e472f742686d0c69e9dc8f82960dd316b6192c2b404837"
+    "sha256": "e4d8de664698af7becd18799bdeaec0cbb040b2a234b549482462d27cf28fd26"
   },
   "familyID": "mangadex-fr",
   "icon": {
