@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-12T00:00:00Z",
+  "generatedAt": "2026-11-12T10:00:00Z",
   "schemaVersion": 1,
   "modules": [
     {
@@ -14,11 +14,11 @@
       "status": "active",
       "icon": {
         "path": "modules/mangadex/icon.png",
-        "sha256": "0000000000000000000000000000000000000000000000000000000000000000"
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
       },
       "manifest": {
         "path": "modules/mangadex/manifest.json",
-        "sha256": "0000000000000000000000000000000000000000000000000000000000000000"
+        "sha256": "36681fd8984c37c84fa5e7587b1fc2b5b19afd815d60b11f472aa8a8bfa124ce"
       }
     }
   ]
