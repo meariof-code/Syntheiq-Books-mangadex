@@ -1,0 +1,9 @@
+{
+  "modules": [
+    {
+      "id": "mangadex-fr",
+      "name": "MangaDex (Webtoons FR)",
+      "manifestUrl": "https://raw.githubusercontent.com/meariof-code/Syntheiq-Books-mangadex/main/modules/mangadex/manifest.json"
+    }
+  ]
+}
