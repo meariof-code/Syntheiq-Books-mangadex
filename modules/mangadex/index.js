@@ -2,7 +2,7 @@ const BASE_URL = "https://api.mangadex.org";
 const IMAGE_URL = "https://uploads.mangadex.org";
 
 globalThis.SynthetiqModule = {
-    async searchResults(query, page) {
+    async searchResults(query, page = 1) {
         try {
             const url = `${BASE_URL}/manga?title=${encodeURIComponent(query)}&translatedLanguage[]=fr&limit=20&includes[]=cover_art&contentRating[]=safe&contentRating[]=suggestive&contentRating[]=erotica`;
             const response = await fetchv2(url);
